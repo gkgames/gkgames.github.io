@@ -19,10 +19,7 @@ to freecontactform.com must be kept intact.
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Contact Us</title>	
 	<script>
-	required.add('Full_Name','NOT_EMPTY','Full Name');
-	required.add('Email_Address','EMAIL','Email Address');
-	required.add('Your_Message','NOT_EMPTY','Your Message');
-	required.add('AntiSpam','NOT_EMPTY','Anti-Spam Question');
+
 	</script>
 	<style>
 		.freecontactform {
@@ -82,7 +79,6 @@ font-weight:normal;
 	</head>
 	<body>
 	
-	<form name="freecontactform" method="post" onsubmit="window.location='contactformprocess.html'">
 	<table width="400px" class="freecontactform">
 	<tr>
 	 <td colspan="2">
@@ -141,11 +137,10 @@ font-weight:normal;
 	<tr>
 	 <td colspan="2" style="text-align:center" >
 	 <br /><br />
-	  <input type="submit" value=" Submit Form " style="width:200px;height:40px">
+	  <input type="submit" value=" Submit Form " style="width:200px;height:40px" onclick="location.href='contactformprocess.html'">
 	  <br /><br />
 	 </td>
 	</tr>
 	</table>
-	</form>
 </body>
 </html>
