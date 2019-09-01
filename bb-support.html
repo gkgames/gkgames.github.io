@@ -1,0 +1,146 @@
+<!--
+URL: www.freecontactform.com
+Version: FreeContactForm Free V2.3
+Copyright (c) 2019 freecontactform.com
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Notice: The free version is free to use, but all credit and references 
+to freecontactform.com must be kept intact.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Contact Us</title>	
+	<script>
+
+	</script>
+	<style>
+		.freecontactform {
+width: 460px;
+font-family: arial;
+border: 1px solid #AAA;
+padding:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+margin: 80px auto;
+}
+.freecontactformheader {
+font-size:18px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+}
+.freecontactformmessage {
+text-align:center;
+padding-bottom:10px;
+}
+.freecontactform td {
+padding:4px;
+font-size:12px;
+}
+.freecontactform p {
+padding:4px;
+}
+.freecontactform label {
+padding:4px;
+}
+.freecontactform label {
+padding-right:10px
+}
+.required {
+font-weight:bold;
+}
+.required_star {
+font-weight:bold;
+color:#F00;
+}
+.not-required {
+font-weight:normal
+}
+.antispammessage {
+padding:10px;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+font-weight:bold 
+}
+.antispamquestion {
+font-weight:normal;
+}	
+	</style>
+	</head>
+	<body>
+	
+	<table width="400px" class="freecontactform">
+	<tr>
+	 <td colspan="2">
+	  
+	 <div class="freecontactformheader">Tower Race Support</div>
+	  
+	 <div class="freecontactformmessage">Fields marked with <span class="required_star"> * </span> are mandatory.</div>
+	  
+	 </td>
+	</tr>
+	<tr>
+	 <td valign="top">
+	  <label for="Full_Name" class="required">Full Name<span class="required_star"> * </span></label>
+	 </td>
+	 <td valign="top">
+	  <input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:230px">
+	 </td>
+	</tr>
+	<tr>
+	 <td valign="top">
+	  <label for="Email_Address" class="required">Email Address<span class="required_star"> * </span></label>
+	 </td>
+	 <td valign="top">
+	  <input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:230px">
+	 </td>
+	</tr>
+	<tr>
+	 <td valign="top">
+	  <label for="Telephone_Number" class="not-required">Telephone Number</label>
+	 </td>
+	 <td valign="top">
+	  <input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:230px">
+	 </td>
+	</tr>
+	<tr>
+	 <td valign="top">
+	  <label for="Your_Message" class="required">Your Message<span class="required_star"> * </span></label>
+	 </td>
+	 <td valign="top">
+	  <textarea style="width:230px;height:160px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea>
+	 </td>
+	</tr>
+	<tr>
+	 <td colspan="2" style="text-align:center" >
+	  <div class="antispammessage">
+	  To help prevent automated spam, please answer this question
+	  <br /><br />
+		  <div class="antispamquestion">
+		   <span class="required_star"> * </span>
+		   Using only numbers, what is 10 plus 15? &nbsp; 
+		   <input type="text" name="AntiSpam" id="AntiSpam" maxlength="100" style="width:30px">
+		  </div>
+	  </div>
+	 </td>
+	</tr>
+	<tr>
+	 <td colspan="2" style="text-align:center" >
+	 <br /><br />
+	  <input type="submit" value=" Submit Form " style="width:200px;height:40px" onclick="location.href='contactformprocess.html'">
+	  <br /><br />
+	 </td>
+	</tr>
+	</table>
+</body>
+</html>
